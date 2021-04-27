@@ -43,3 +43,40 @@ header .flex-container {
 .hide-marker {
     display: none;
 }
+
+// Hamburguer Menu
+
+.menu nav ul {  
+    display: none;
+}
+
+#navUl.active {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 95px;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(87,46,229,0.90);
+
+    body.dark & {
+        background: $black;
+    }
+}
+
+#hamburger {
+    position: relative;
+    background-image: url('/assets/burger.svg');
+    width: rem(15px);
+    height: rem(15px);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+    body.dark & {
+        background-image: url('/assets/burger-modo-noct.svg');
+    }
+}
