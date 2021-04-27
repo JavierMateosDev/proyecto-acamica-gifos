@@ -31,7 +31,7 @@ body.dark .logo-container-mobile-noct {
 
 .textMenu {
   font-family: "Montserrat", sans-serif;
-  font-size: rem(15px);
+  font-size: 0.9375rem;
   font-weight: 700;
   color: #FFFFFF;
   text-align: center;
@@ -71,17 +71,27 @@ body.dark #navUl.active {
   background: #000000;
 }
 
-#hamburger {
+#burgerMenu {
   position: relative;
   background-image: url("/assets/burger.svg");
-  width: rem(15px);
-  height: rem(15px);
+  width: 0.9375rem;
+  height: 0.9375rem;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 
-body.dark #hamburger {
+body.dark #burgerMenu {
   background-image: url("/assets/burger-modo-noct.svg");
+}
+
+#burgerMenu.active {
+  background-image: url("/assets/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.dark #burgerMenu.active {
+  background-image: url("/assets/close-modo-noct.svg");
 }
 /*# sourceMappingURL=styles.min.css.map */

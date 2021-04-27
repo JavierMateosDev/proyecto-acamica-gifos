@@ -1,4 +1,4 @@
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
+burgerMenu.addEventListener('click', () => {
+    burgerMenu.classList.toggle('active');
     navUl.classList.toggle('active');
 });
