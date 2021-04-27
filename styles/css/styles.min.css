@@ -7,4 +7,46 @@
 :root {
   font-size: 16px;
 }
+
+header .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 22px 24px;
+}
+
+.logo-container-mobile-noct,
+.logo-container-desktop,
+.logo-container-desktop-noct {
+  display: none;
+}
+
+body.dark .logo-container-mobile {
+  display: none;
+}
+
+body.dark .logo-container-mobile-noct {
+  display: block;
+}
+
+.textMenu {
+  font-family: "Montserrat", sans-serif;
+  font-size: rem(15px);
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60px;
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.textMenu a {
+  color: white;
+  text-decoration: none;
+}
+
+.hide-marker {
+  display: none;
+}
 /*# sourceMappingURL=styles.min.css.map */
