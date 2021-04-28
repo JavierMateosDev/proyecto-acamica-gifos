@@ -94,4 +94,153 @@ body.dark #burgerMenu {
 body.dark #burgerMenu.active {
   background-image: url("/assets/close-modo-noct.svg");
 }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #572EE5;
+  text-align: center;
+  line-height: 33px;
+  padding: 0 12%;
+  margin-top: 0;
+}
+
+h1 .br-title {
+  display: none;
+}
+
+body.dark h1 {
+  color: #FFFFFF;
+}
+
+.aqua-title {
+  color: #5ED7C6;
+}
+
+.home-illustration {
+  width: 72.8%;
+  height: 10.8%;
+  margin: 31px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.home-illustration img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input[type="text"] {
+  border: none;
+  background: transparent;
+  margin-left: 22%;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+  text-align: left;
+}
+
+body.dark input[type="text"] {
+  background: #37383C;
+}
+
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B7989;
+  text-align: left;
+}
+
+.search-input-container {
+  background: #FFFFFF;
+  border: 1px solid #572EE5;
+  border-radius: 27px;
+  width: 89.1%;
+  height: 4.2%;
+  margin: 0 auto;
+  padding: 13.8px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body.dark .search-input-container {
+  background: #37383C;
+  border: 1px solid #FFFFFF;
+}
+
+.search-input-container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-search {
+  background-image: url("/assets/icon-search.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 1.25rem;
+  border: 0;
+  outline: none;
+}
+
+body.dark .btn-search {
+  background-image: url("/assets/icon-search-modo-noct.svg");
+}
+
+#searchBarSection h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #572EE5;
+  text-align: center;
+  line-height: 1.5625rem;
+  margin-top: 1.9375rem;
+  margin-bottom: 0.125rem;
+}
+
+#searchBarSection P {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #572EE5;
+  text-align: center;
+  line-height: 1.5625rem;
+  padding: 0 20%;
+  margin-top: 0;
+  margin-bottom: 2.8125rem;
+}
+
+#searchBarSection .trending-topic {
+  cursor: pointer;
+}
+
+#searchBarSection .divider {
+  width: 9.8125rem;
+  margin: -10px auto 43px;
+  opacity: 0.5;
+}
+
+body.dark #searchBarSection h3, body.dark #searchBarSection p {
+  color: #FFFFFF;
+}
+
+#searchBarSection #searchResult {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5625rem;
+  color: #572EE5;
+  text-align: center;
+  line-height: 2.5rem;
+  margin-bottom: 2.375rem;
+}
+
+body.dark #searchBarSection #searchResult {
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=styles.min.css.map */
