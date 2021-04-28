@@ -243,4 +243,23 @@ body.dark #searchBarSection h3, body.dark #searchBarSection p {
 body.dark #searchBarSection #searchResult {
   color: #FFFFFF;
 }
+
+#searchBarSection #noResultsSearch .no-results-icon {
+  background-image: url("/assets/icon-busqueda-sin-resultado.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 9.375rem;
+  width: 9.375rem;
+  margin: 60px auto 29px;
+}
+
+#searchBarSection #noResultsSearch p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #5ED7C6;
+  text-align: center;
+  line-height: 1.5625rem;
+  margin-bottom: 3.75rem;
+}
 /*# sourceMappingURL=styles.min.css.map */
